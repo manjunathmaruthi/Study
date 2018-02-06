@@ -7,7 +7,8 @@ import org.mongodb.morphia.Morphia;
 public class MorphiaMain {
 
     public static void main(String args[]) {
-        Mongo mongo = new Mongo("localhost");
-        Datastore datastore = new Morphia().createDatastore(mongo, "bandmanager");
+       // Mongo mongo = new Mongo("localhost");
+       // Datastore datastore = new Morphia().createDatastore(mongo, "bandmanager");
+        System.out.println("Test");
     }
 }
